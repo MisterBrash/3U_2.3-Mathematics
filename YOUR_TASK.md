@@ -14,7 +14,7 @@ In the above equation, we _know_ the Fahrenheit value `F` and use it to create a
 The equation to convert in the _opposite_ direction is:
 > F = (C * 9/5) + 32
 
-#### All the code below should go in a new file `1.3 - Mathematics.js`
+#### We will use the code file [main.js](./main.js) and printing to the console to see our answers
 
 **Part 1: Convert Celsius to Farenheit**
   1. Declare a variable and call it `celsius`, setting `celsius` to 100.
