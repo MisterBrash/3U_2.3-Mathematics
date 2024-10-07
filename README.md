@@ -64,7 +64,7 @@ let area_circle = Math.PI * r**2;
 let a = 8;
 let b = 4;
 let c = Math.sqrt(a**2 + b**2);
-console.log("The hypotenuse of a triangle with sides", a, "and", b, "is", c)
+console.log(`The hypotenuse of a triangle with sides ${a} and ${b} is ${c}`)
 ```
 
 **Now go check out [your task](./YOUR_TASK.md).**
