@@ -1,62 +1,42 @@
-### 2.2 - Variables
+### 2.3 - Mathematics
 
 ##### ICS3 - Mr. Brash 🐿️
 
 # 📝 Your Task:
 
-(Read carefully and work with a partner if you are struggling - ask Mr. Brash only after asking a classmate)
+We are going to ask the computer to convert temperatures.
 
-- This repo has been setup already for you with an [HTML page](./index.html) and a [JavaScript code file](./main.js).
-- When you preview the HTML page, the JavaScript will run in the background after the page loads.
-- Open the developer tools (`CTRL+SHIFT+J` or `Menu > More Tools > Developer Tools`) to see the console.
+The equation to convert Fahrenheit to Celsius is:
+> C = (F - 32) * 5/9
 
+In the above equation, we _know_ the Fahrenheit value `F` and use it to create and store the new Celsius value into `C`.
 
-Some people prefer to have the developer tools at the bottom of the browser window. The options are under the kabob menu.
+The equation to convert in the _opposite_ direction is:
+> F = (C * 9/5) + 32
 
-<img src="./.vscode/console_dock.png" style="display:block;margin:auto;filter:drop-shadow(3px 3px 4px grey)" width="200px">
-<br>
+#### All the code below should go in a new file `1.3 - Mathematics.js`
 
----
+**Part 1: Convert Celsius to Farenheit**
+  1. Declare a variable and call it `celsius`, setting `celsius` to 100.
+  2. Declare _another_ variable and call it `fahrenheit` - setting this variable to 0.
+  3. Let's add 2 to `celsius`, mostly to practice that skill.
+  4. Using the correct equation (above) and the value of the variable `celsius`, convert that temperature to degrees Fahrenheit and store that new value in your variable `fahrenheit`. This will overwrite the value of 0 you set in step 2.
+  5. Output the value of `fahrenheit` to the console. Just the number.
 
-##### Part 1
+**Part 2: Convert Farenheit to Celsius**
+  This task will reuse the variables from Part 1 - no new `let` statements.
+  1. Now set the variable `fahrenheit` to 77 
+  2. Using the correct equation, convert from this Fahrenheit value to Celsius, and store the answer in the `celsius` variable.
+  3. Output the current value of `celsius` to the console. Just the number.
+  
+**Part 3: Now for some text:**
+  Printing just the numbers is boring. Let's try that output again (on a new line) but with some pizzazz!
+  - Using the variables `farenheit` and `celsius` create an output that looks like this:  "77 degrees Fahrenheit is {value} degrees celsius." (where {value} is whatever the answer was to the conversion done in Part 2).
 
-1. Create a variable `length` and set it equal to 10
-2. Create a variable `width` and set it equal to 5
-3. Calculate the area of a rectangle using `length` and `width` - store the answer in a new variable `area`
-<br>
-(Note: to multiply, use the 'asterisk' `*`) **Example:**
-```JS
-let x = 3;
-let multiplied_value = x * 4;   // This would be 12
-```
-4. Output the value of the `area` variable to the console.
-5. Output the area again, but this time like this: `Area: 50`  {use the `area` variable for the number}
+**Last Part:**
+  1. Slope of a line is defined as `m = (y2 - y1)/(x2 - x1)`. Define a variable `m` and compute the slope from point A(-4, 5) to point B(6, 0), and store it into `m`.
+  2. Print the value of `m` to the console.
 
-##### Part 2
-
-1. Create a variable called `first_name` and set the value to "Santa".
-2. Create a variable called `last_name` and set the value to "Claws".
-3. On the next code line, set the value of `last_name` to "Claus".
-4. Using the _variables_ you made in 1 and 2, print "I still believe in Santa Claus." to the console.
-
-##### Part 3
-
-There is a way to print out the _type_ of a variable (just in case you needed to check). The keyword is `typeof` and it works like this:
-```JS
-console.log(typeof side_length)
-```
-
-- Have JavaScript print out the _type_ of your `area` and `last_name` variables.
-
-##### Part 4
-
-_Variables_ are called that because they can change. But what if you don't want the variable to change - even by accident? Most programming languages have a special type of variable called a `constant`. These can be used for math and output, but they cannot be adjusted. The keyword for a _constant_ in JavaScript is `const`. Example:
-```js
-const e = 2.71828
-```
-1. Create a constant to represent π (3.14).
-2. Create a variable for the _radius_ of a circle.
-3. Calculate and output the area of the circle using your π constant and _radius_ variable.
 
 <br>
 
