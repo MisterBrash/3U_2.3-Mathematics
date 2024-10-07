@@ -31,7 +31,7 @@ The equation to convert in the _opposite_ direction is:
   
 **Part 3: Now for some text:**
   Printing just the numbers is boring. Let's try that output again (on a new line) but with some pizzazz!
-  - Using the variables `farenheit` and `celsius` create an output that looks like this:  "{value} degrees Fahrenheit is {value} degrees celsius." where {value} gets replaced by the appropriate numbers from your variables.
+  - Using the variables `farenheit` and `celsius` create an output that looks like this:  `{value} degrees Fahrenheit is {value} degrees celsius.` where {value} gets replaced by the appropriate numbers from your variables.
 
 **Part 4: Slope**
   1. Slope of a line is defined as `m = (y2 - y1)/(x2 - x1)`. Define a variable `m` and compute the slope from point A(-4, 5) to point B(6, 0), and store it into `m`.
