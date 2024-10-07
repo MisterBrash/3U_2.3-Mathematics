@@ -31,12 +31,18 @@ The equation to convert in the _opposite_ direction is:
   
 **Part 3: Now for some text:**
   Printing just the numbers is boring. Let's try that output again (on a new line) but with some pizzazz!
-  - Using the variables `farenheit` and `celsius` create an output that looks like this:  "77 degrees Fahrenheit is {value} degrees celsius." (where {value} is whatever the answer was to the conversion done in Part 2).
+  - Using the variables `farenheit` and `celsius` create an output that looks like this:  "{value} degrees Fahrenheit is {value} degrees celsius." where {value} gets replaced by the appropriate numbers from your variables.
 
-**Last Part:**
+**Part 4: Slope**
   1. Slope of a line is defined as `m = (y2 - y1)/(x2 - x1)`. Define a variable `m` and compute the slope from point A(-4, 5) to point B(6, 0), and store it into `m`.
   2. Print the value of `m` to the console.
 
+**Part 5: The Math object**
+  Lets use the [Math object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) a little to create a random volume of a cylinder. Reminder:  V = π r² h
+  1. Create a random radius between 0 and 10
+  2. Create a random height between 0 and 10
+  3. Use `Math.PI` and `Math.round()` to calculate the volume of this cylinder.
+  4. Output the volume of the cylinder as: `The volume of my random cylinder is {value}`
 
 <br>
 
