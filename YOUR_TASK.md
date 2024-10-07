@@ -19,13 +19,13 @@ The equation to convert in the _opposite_ direction is:
 **Part 1: Convert Celsius to Farenheit**
   1. Declare a variable and call it `celsius`, setting `celsius` to 100.
   2. Declare _another_ variable and call it `fahrenheit` - setting this variable to 0.
-  3. Let's add 2 to `celsius`, mostly to practice that skill.
-  4. Using the correct equation (above) and the value of the variable `celsius`, convert that temperature to degrees Fahrenheit and store that new value in your variable `fahrenheit`. This will overwrite the value of 0 you set in step 2.
+  3. Let's add 2 to `celsius`, just to practice that skill.
+  4. Using the correct equation (above) and the value of the variable `celsius`, convert that temperature to degrees Fahrenheit and store the answer in your `fahrenheit` variable. This will overwrite the value of 0 you set in step 2.
   5. Output the value of `fahrenheit` to the console. Just the number.
 
 **Part 2: Convert Farenheit to Celsius**
-  This task will reuse the variables from Part 1 - no new `let` statements.
-  1. Now set the variable `fahrenheit` to 77 
+  This task will reuse the variables from Part 1 - *no* new `let` statements required.
+  1. Now set `fahrenheit` to 77 
   2. Using the correct equation, convert from this Fahrenheit value to Celsius, and store the answer in the `celsius` variable.
   3. Output the current value of `celsius` to the console. Just the number.
   
